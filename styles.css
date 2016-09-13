@@ -1,0 +1,86 @@
+.octodex{
+  /*border: 1px solid red;*/
+  display: inline-block;
+
+}
+a{
+  color: #333333;
+  text-decoration: none;
+  font-weight:700;
+  font-family:inherit;
+}
+.octocat{
+ /*border: 3px solid orange;*/
+ display:inline-block;
+ width: 380px;
+ padding: 7px;
+
+}
+
+.octocat a{
+  /*border: 2px solid red;*/
+  display:inline-block;
+}
+
+.octocat img{
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.authors img{
+  /*border: 1px solid green;*/
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+.image-footer{
+  float: left;
+  /*border: 3px solid pink;*/
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid lightgrey;
+  color:#908B80;
+
+}
+.image-caption{
+  float: right;
+  display: inline-block;
+  margin-top: 10px;
+
+}
+.authors{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.image-number{
+  color: lightgrey;
+  float: left;
+  padding-top: 13px;
+
+}
+
+
+.authors li{
+  vertical-align:middle;
+  display:inline-block;
+  /*border: 1px solid purple;*/
+}
+
+.image-footer:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-top-color: #cacaca;
+    position: absolute;
+    right: 7px;
+    top: 0;
+}
+/*.image-footer:after{
+ bottom: 3px solid red;
+}*/
